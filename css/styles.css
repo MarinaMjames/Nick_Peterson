@@ -1,0 +1,152 @@
+/*Global Styles######################################################################################################*/
+html {
+	width:100%;
+	height:100%;
+	margin:0%;
+	padding:0%;
+	background-color: #fff;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*background: url(../bg5.jpg) no-repeat center center fixed; */
+	background:#dadada;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: Helvetica Black;
+	font-size:16px;
+	font-size:100%;
+	color:#262626;
+	margin:0px;
+	    opacity: 1;
+    transition: 2s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+
+a {
+	text-decoration:none;
+}
+
+
+/*Highlight color */
+::selection {
+	background: red; /* Safari */
+}
+	
+::-moz-selection {
+	background: red; /* Firefox */
+}
+/*End highlight color*/
+
+/*Import Fonts*/
+
+
+h1 {
+	font-family: Helvetica Black;
+	font-size:100%;
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+ul, li {
+	list-style:none;
+	text-align:left;
+}
+
+#header-with-logo {
+background-color:white;
+display:inline-block;
+	height:35vh;
+	width:100%;
+	-webkit-box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
+-moz-box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
+box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
+
+}
+
+img.header-logo {
+	padding-top:15vh;
+	width:100%;
+}
+
+#everything-else {
+	
+	width:400px;
+	height:auto;
+	margin:auto;
+	margin-top:5%;
+	padding:1%;
+	font-family: 'Francois One', sans-serif;
+	text-align:center;
+	font-size:170%;
+	color:white;
+	text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+}
+
+span.name {
+	font-size:150%;
+}
+
+span.title {
+ color:#e7e7e7;
+}
+
+address a {
+	text-decoration:none;
+	font-style:normal;
+	color:white;
+}
+
+.social {
+	
+	width:400px;
+	height:auto;
+	margin:auto;
+	margin-top:5%;
+	padding:1%;
+	font-family: 'Francois One', sans-serif;
+	text-align:center;
+	font-size:170%;
+	color:white;
+	text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.linkedin {
+position:relative;
+display:inline-block;
+float:left;
+width:45%;
+
+}
+
+.linkedin img {
+width:100%;
+}
+
+.behance {
+position:relative;
+display:inline-block;
+float:right;
+width:45%;
+
+}
+
+.behance img {
+width:100%;
+}
+.rule {
+	width:1px;
+	height:50px;
+	background-color:#5a5a5a;
+	float:left;
+	margin-left:20px;
+}
