@@ -1,11 +1,9 @@
 /*Global Styles*/
 body {
-	font-family: Helvetica Black;
-	font-size:16px;
-	font-size:100%;
-	color:#262626;
-	margin:0px;
-    transition: 2s opacity;
+    background-image: url("https://user-images.githubusercontent.com/26077051/28930688-bd825f72-7841-11e7-8d65-598d830f5c78.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transition: 2s opacity;
 }
 
 body.fade-out {
@@ -17,25 +15,9 @@ a {
 	text-decoration:none;
 }
 
-/*Highlight color */
-::selection {
-	background: red; /* Safari */
-}
-	
-::-moz-selection {
-	background: red; /* Firefox */
-}
-/*End Highlight color*/
-
 #header-with-logo {
-background-color:white;
-display:inline-block;
 	height:35vh;
 	width:100%;
-	-webkit-box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
--moz-box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
-box-shadow: 0px 19px 49px -2px rgba(0,0,0,0.93);
-
 }
 
 img.header-logo {
@@ -44,18 +26,16 @@ img.header-logo {
 }
 
 #everything-else {
-/*	width:100%;*/
-	background-color: #EBEBEC;
 	padding:1%;
 	font-family: 'Francois One', sans-serif;
 	text-align:center;
 	font-size:170%;
 	color:white;
-	text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
 
 span.name {
 	font-size:150%;
+	text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
 
 span.title {
@@ -69,22 +49,13 @@ address a {
 }
 
 .social {
-	
 	width:400px;
 	height:auto;
 	margin:auto;
-	margin-top:5%;
-	padding:1%;
-	font-family: 'Francois One', sans-serif;
-	text-align:center;
-	font-size:170%;
-	color:white;
 	text-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
 
 .linkedin {
-position:relative;
-display:inline-block;
 float:left;
 width:45%;
 
@@ -95,8 +66,6 @@ width:60%;
 }
 
 .behance {
-position:relative;
-display:inline-block;
 float:right;
 width:45%;
 
@@ -112,3 +81,13 @@ width:60%;
 	float:left;
 	margin-left:20px;
 }
+
+/*Highlight color */
+::selection {
+	background: red; 
+}
+	
+::-moz-selection {
+	background: red; 
+}
+/*End Highlight color*/
