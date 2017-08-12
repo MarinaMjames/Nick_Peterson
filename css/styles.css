@@ -24,6 +24,9 @@ img.header-logo {
 	padding-top: 20vh;
 	width: 100%;
 }
+img.mobile-logo{
+	display: none;
+}
 
 #everything-else {
 	padding: 1%;
@@ -108,3 +111,39 @@ address a {
    opacity: 0.6;
    filter: alpha(opacity=60); 
  }
+
+/* Mobile Display */
+ @media screen and (max-width: 480px) {
+	body {
+		background-image: url("https://user-images.githubusercontent.com/26077051/29236751-f1716bb4-7edd-11e7-8b22-5e5eb6e64bbc.png");
+		background-size: 100% 140%;
+		background-repeat: no-repeat;
+		transition: 2s opacity;
+	}
+	img.mobile-logo{
+		padding-top: 80px;
+		width: 100%;
+		display: inline;
+	}
+	img.header-logo {
+		display: none;
+	}
+ }
+
+/* Tablet Display */
+@media screen and (max-width: 768px) {
+	body {
+		background-image: url("https://user-images.githubusercontent.com/26077051/29236751-f1716bb4-7edd-11e7-8b22-5e5eb6e64bbc.png");
+		background-size: 100% 150%;
+		background-repeat: no-repeat;
+		transition: 2s opacity;	
+	}
+	#everything-else {
+		padding: 1%;
+		font-family: 'Francois One', sans-serif;
+		text-align: center;
+		font-size: 130%;
+		color: white;
+		margin-top: 180px;
+	}
+}
